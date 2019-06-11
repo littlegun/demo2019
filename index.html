@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+    
+    <title>BEST FOOD IN TOKYO</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8" name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+</head>
+<body>
+    <nav>
+        <img src="..\tokyofood\IMG_68793.jpg" />
+        <div class="btn">
+        <div class="btn0">
+            <a href="#sec1" id="b1">The Great Burger</a><br>
+            <img src="..\tokyofood\GB2.png" />
+            </div>
+        <div class="btn0">
+            <a href="#sec2" id="b2">The First Kitchen</a><br>
+            <img src="..\tokyofood\wendy1.png" />
+            </div>
+        <div class="btn0">
+            <a href="#sec3" id="b3">Fries & Fired Chicken</a><br>
+            <img src="..\tokyofood\Swallows1.png" />
+            </div>
+        </div>
+    </nav>
+
+   <div id="title">BEST FOOD IN TOKYO</div>
+   
+   
+    <div class="content">
+        
+        
+        <br/><br/>
+        <a id="sec1"></a>
+        <div>
+            <h2>The Great Burger</h2>
+            <p>Our BBQ Bacon Burger features our special house ground blend of wagyu and sirloin, spiced perfectly, and finished off with just a drop of white truffle oil. A butter grilled brioche bun layered with roasted red onion, perfectly crispy pork belly, and our hickory smoked BBQ sauce.</p>
+            <img src="..\tokyofood\001.jpg" />
+            <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAmNbAlNv91TSw1dLZaJfhIDJ8bBAz2FHM&q=The Great Burger" allowfullscreen>
+            </iframe>
+        </div>
+        
+        
+        <br/>
+        <hr>
+        <a id="sec2"></a>
+        <div>
+            <h2>The First Kitchen</h2>
+            <p>ハンバーガーは、パンを味わう料理でもあります。だから、その食感や風味はとても大切。もちろん、パティやほかの具材の邪魔をせず、キチンと調和するものでなければなりません。
+新しく生まれた「クイーンバンズ」は、中種から生地の配合を徹底的に見直し、しっかりとした食べごたえと味・香りを追求。さらに、肉や野菜の旨みとも引き立て合う、ハンバーガーとして絶妙な味わい、口あたりにこだわりました。</p>
+           <img src="..\tokyofood\002.jpg" />
+           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAmNbAlNv91TSw1dLZaJfhIDJ8bBAz2FHM&q=First Kitchen
+ファーストキッチン 吉祥寺店" allowfullscreen>
+            </iframe>
+            
+        </div>
+        
+        
+        <br/>
+        <hr>
+        <a id="sec3"></a>
+        <div>
+            <h2>Fries & Fired Chicken</h2>
+            <p>みんな大好き「神宮からあげ祭」が今年で3年目を迎えます。
+全国から選りすぐりのからあげが神宮球場に集結します!!
+さらに、神宮球場の新名物「神宮球場レモンサワー」を500円で販売します!!
+じゅ〜し〜×甘酸っぱいがクセになる予感……
+全国のからあげ達と神宮球場レモンサワーを片手に野球観戦しましょう！</p>
+            <img src="..\tokyofood\003.jpg" />
+           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAmNbAlNv91TSw1dLZaJfhIDJ8bBAz2FHM&q=明治神宮棒球場" allowfullscreen>
+            </iframe>
+        </div>
+        
+        <script>
+             
+            $(function() {
+                
+                
+                $('a[href=#sec1]').click(function() {
+                $('html,body').animate({
+                    scrollTop:$('#sec1').offset().top
+                    }, "show");
+                return false;
+                });              
+                
+                $('a[href=#sec2]').click(function() {
+                $('html,body').animate({
+                    scrollTop:$('#sec2').offset().top
+                    }, "show");
+                return false;
+                });
+                
+                $('a[href=#sec3]').click(function() {
+                $('html,body').animate({
+                    scrollTop:$('#sec3').offset().top
+                    }, "show");
+                return false;
+                });
+                
+               });  
+        </script>>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                crossorigin="anonymous"></script> 
+        
+    </div>
+    
+     
+</body>
+</html>
